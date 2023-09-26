@@ -45,7 +45,7 @@ h1 {
   border: 2px solid #000;
 }
 
-#item {
+.item {
   border: 2px solid #000;
   font-size: 4rem;
   text-align: center;
@@ -65,7 +65,7 @@ button {
   margin: 0 auto;
 }
 
-#btn {
+.btn {
   width: 150px;
   margin: 0 auto;
 }
@@ -105,7 +105,7 @@ button:active {
     width: 250px;
     height: 250px;
   }
-  #item {
+  .item {
     font-size: 1.9rem;
   }
   #gameOver {
