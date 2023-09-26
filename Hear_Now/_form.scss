@@ -1,0 +1,95 @@
+.container {
+    font-family: 'Comic Neue';
+    color: #fff;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 450px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.container h1 {
+    font-size: 6rem;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container p {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+form {
+    direction: rtl;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+form label {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form input {
+    width: 270px;
+    height: 27px;
+    background-color: rgba(255, 255, 255, .3);
+    border: 1px solid #fff;
+}
+
+form .button {
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+@media (max-width:900px) {
+    .container {
+        width: 90vw;
+        margin: 20px auto;
+    }
+
+    .container h1 {
+        font-size: 4rem;
+    }
+
+
+    form input {
+        width: 80vw;
+        margin-bottom: 20px;
+    }
+
+    form {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width:415px) {
+    .container h1 {
+        font-size: 2.5rem;
+    }
+
+    .container h3 {
+        font-size: 1.8rem;
+    }
+}

@@ -1,0 +1,50 @@
+form {
+    width: 400px;
+    background-color: rgba(138, 131, 131, 0.4);
+    margin: 80px auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.fbox {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+    line-height: 2;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+
+input {
+    margin-bottom: 30px;
+    width: 200px;
+    height: 30px;
+    border: 0;
+    border-bottom: 3px solid darkblue;
+}
+
+label {
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (max-width:500px) {
+    form {
+        width: 80vw;
+    }
+
+    form .fbox {
+        width: 80vw;
+        margin: 50px auto;
+    }
+}

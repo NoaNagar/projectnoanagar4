@@ -12,8 +12,7 @@ Contact
    Description: Landing pages intended for various publications, include a description and a contact form.
 
 3. js projects: games and login system
-   Description:
-   x/o
+   Description:Computer games, thinking and challenge games and connection systems that are built in advanced JS language and include the use of functions, objects, classes, local storage, etc.
 
 Technologies Used: HTML, CSS, Bootstrap, SASS.
 Github Repository: Provide a link to the GitHub repository if it's open-source.

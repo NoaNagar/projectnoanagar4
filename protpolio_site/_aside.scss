@@ -1,17 +1,18 @@
 aside {
-    width: $basewidth;
-    display: flex;
-    justify-content: space-around;
-    overflow: hidden;
-    box-shadow: 0px 2px 8px #000;
+  width: $basewidth;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px #000;
+  margin: 0 auto;
 }
 
 .simbol {
-    transition: all .3s ease-in-out;
-    width: 6vw;
-    height: auto;
+  transition: all 0.3s ease-in-out;
+  width: 6vw;
+  height: auto;
 }
 
 .simbol:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
