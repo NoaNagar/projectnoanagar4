@@ -54,7 +54,7 @@ input {
   margin-bottom: 20px;
 }
 
-#img img {
+.img img {
   width: 25vw;
   border: 2px solid #000;
   border-radius: 15px;
@@ -62,7 +62,7 @@ input {
   margin: 0 auto;
 }
 
-#icon {
+.icon {
   width: 20px;
   padding: 18px;
   margin-top: -60px;
@@ -103,7 +103,7 @@ input {
     display: flex;
     flex-direction: column;
   }
-  #img img {
+  .img img {
     width: 80vw;
   }
   #gridForm {
