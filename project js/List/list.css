@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./2302.w061.n005.95B.p1.95.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 99vw;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  height: 100vh;
+  position: absolute;
+  background-color: #fff;
+  background-attachment: fixed;
+  box-shadow: 2px 2px 5px #000;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  margin-left: 20px;
+}
+
+#input {
+  width: 200px;
+  height: 30px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-size: 1.1rem;
+}
+
+ul {
+  border: 1px solid #000;
+  padding-left: 10px;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  width: 150px;
+  border: 2px solid #5745ff;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px #000;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 3px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+#saveBtn {
+  margin-top: 15px;
+  border: 3px solid #5745ff;
+}
+
+#saveBtn:hover {
+  border: 1px solid #5745ff;
+  background-color: #fff;
+}
+
+button:hover {
+  background-color: #dbdbdb;
+}
+button:active {
+  color: #5745ff;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 200px;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  #input {
+    width: 150px;
+    height: 25px;
+  }
+  button {
+    width: 120px;
+  }
+}

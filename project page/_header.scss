@@ -1,0 +1,114 @@
+.logo {
+    width: 99vw;
+    height: 50px;
+    display: flex;
+    border-top: 3px solid orchid;
+    box-shadow: 0px 2px 6px #000;
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    box-shadow: 1px 1px 5px #000;
+}
+
+.logo a {
+    margin-left: 10vw;
+}
+
+.logo img {
+    width: 45px;
+    margin-top: 2px;
+}
+
+
+.logo h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    line-height: 2;
+}
+
+header {
+    width: 99vw;
+    text-align: center;
+    background-image: url(../images/10016.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+    direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    font-size: 5rem;
+    line-height: 2;
+}
+
+header p {
+    margin-bottom: 25px;
+}
+
+header .button {
+    width: 160px;
+    background-color: rgb(250, 196, 236);
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 0;
+    border-radius: 20px;
+    line-height: 2.2;
+    font-size: 1rem;
+    text-align: center;
+    margin: 20px auto;
+}
+
+header a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+}
+
+.btn {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+header button:hover {
+    background-color: rgb(250, 198, 247);
+}
+
+
+@media (max-width:700px) {
+    header {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    .btn {
+        flex-direction: column;
+        justify-content: center;
+        width: 120px;
+    }
+
+    header .button {
+        width: 120px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:300px) {
+
+    header h1 {
+        font-size: 2rem;
+    }
+}

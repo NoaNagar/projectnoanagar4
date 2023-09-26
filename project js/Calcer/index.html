@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studing calculus</title>
+    <link rel="stylesheet" href="./calcer.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="shadow">
+        <button id="start">START</button>
+        <label for="name" id="label">Enter Your Name</label><br />
+        <input type="text" id="nameInp" />
+      </div>
+      <div class="inside">
+        <div id="welcome">
+          <h2></h2>
+          <h3>Please select numbers to calculate and start playing</h3>
+        </div>
+        <form>
+          <label>select min</label><br />
+          <input type="text" id="myMin" /><br />
+          <label>select max</label><br />
+          <input type="text" id="myMax" /><br />
+          <select id="mathSelect">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+          </select>
+          <br />
+          <button id="numBtn">GO</button><br />
+          <hr />
+          <h1>Math question</h1>
+          <label id="quest">1+1=</label>
+          <input type="text" id="answer" />
+          <button id="checkBtn">Check</button><br />
+          <button id="newBtn">New Game</button>
+        </form>
+        <div id="history"></div>
+      </div>
+    </div>
+
+    <script src="./calcer.js"></script>
+  </body>
+</html>

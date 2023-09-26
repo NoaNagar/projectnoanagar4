@@ -1,0 +1,41 @@
+footer {
+    width: $basewidth;
+    background-color: $basecolor;
+}
+
+.box-icons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: $basefont;
+    text-align: center;
+}
+
+footer .c {
+    background-color: #000;
+    border-bottom: 3px solid $basecolor;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-family: $basefont;
+
+}
+
+
+@media (max-width:700px) {
+    .box-icons {
+        flex-direction: column;
+    }
+
+    .box-icons div {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:350px) {
+    footer .c {
+        font-size: 0.8rem;
+    }
+}

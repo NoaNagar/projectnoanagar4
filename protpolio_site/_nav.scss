@@ -1,0 +1,94 @@
+nav {
+    width: $basewidth;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    font-family: $basefont;
+    justify-content: space-evenly;
+    z-index: 1;
+    box-shadow: 0px 2px 6px #000;
+    background-color: #fff;
+}
+
+.logo {
+    display: flex;
+    margin-left: 10px;
+}
+
+nav h2 {
+    line-height: 2;
+    margin-left: 5px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    direction: rtl;
+    width: 50vw;
+    margin-left: 30vw;
+    font-weight: bold;
+
+}
+
+nav ul li a {
+    display: block;
+    width: 15vw;
+    font-size: 1.5rem;
+    line-height: 2;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:hover {
+    color: $basecolor;
+}
+
+nav ul li a:active {
+    color: $basecolor;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+@media (max-width: 700px) {
+
+    nav ul li {
+        width: 100vw;
+        clear: both;
+    }
+
+    nav ul {
+        display: none;
+        margin: 50px auto;
+        width: 10px;
+    }
+
+    nav ul li a {
+        display: block;
+        font-size: 1.5em;
+        background-color: #fff;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        margin: 0 auto;
+        margin-bottom: 5px;
+        width: 100vw;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .hamburger {
+        display: block;
+        width: 100vw;
+        font-size: 1.5em;
+        margin-top: 10px;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+    nav .hamburger:hover+ul {
+        display: block;
+    }
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./backgroundJS2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.page {
+  border: 1px solid #000;
+  position: fixed;
+  width: 50vw;
+  height: 100vw;
+  left: 40vw;
+  background-color: #fff;
+}
+
+#form1 {
+  font-weight: bold;
+  color: #000;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 2px #fff;
+}
+
+.form-control {
+  margin-bottom: 30px;
+  border: 1px solid #000;
+}

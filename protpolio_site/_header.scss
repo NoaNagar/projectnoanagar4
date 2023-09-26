@@ -1,0 +1,31 @@
+header {
+    width: $basewidth;
+    background-image: url(../images/10016.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    direction: rtl;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: $basefont;
+    font-size: 5rem;
+    line-height: 2;
+}
+
+
+
+
+@media (max-width:700px) {
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+
+
+}
