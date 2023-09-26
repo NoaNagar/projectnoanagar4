@@ -5,10 +5,10 @@ const getRandomIntInclusive = (min, max) => {
 };
 let random = getRandomIntInclusive(1, 100);
 
-let clickOnItem = document.querySelectorAll("#item");
+let clickOnItem = document.querySelectorAll(".item");
 
 const newGame = () => {
-  let itemArr = document.querySelectorAll("#item");
+  let itemArr = document.querySelectorAll(".item");
   for (let i of itemArr) {
     random = getRandomIntInclusive(1, 100);
     i.innerHTML = random;
@@ -26,7 +26,7 @@ const newNumber = () => {
 };
 
 const fullBoard = () => {
-  let items = document.querySelectorAll("#item");
+  let items = document.querySelectorAll(".item");
   let howFull = 0;
   for (let item of items) {
     if (item.innerHTML == "V") {
@@ -39,7 +39,7 @@ const fullBoard = () => {
   }
 };
 
-let items = document.querySelectorAll("#item");
+let items = document.querySelectorAll(".item");
 let newNum = document.querySelector("#bingoNum");
 items.forEach((item) => {
   item.addEventListener("click", () => {

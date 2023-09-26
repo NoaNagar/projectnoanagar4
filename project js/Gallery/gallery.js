@@ -63,7 +63,7 @@ document.querySelector("#loginBtn").addEventListener("click", (e) => {
 
 window.addEventListener("load", () => {
   theme();
-  let icons = document.querySelectorAll("#icon");
+  let icons = document.querySelectorAll(".icon");
   icons.forEach((div) => {
     div.addEventListener("click", () => {
       div.innerHTML = "❤️";
